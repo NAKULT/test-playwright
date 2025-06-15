@@ -33,7 +33,7 @@ To run the test cases, use the following command in the terminal:
 npx playwright test
 ```
 
-This command will execute all test files in the `tests` directory.
+This command will execute all test files in the `tests` directory. 
 
 ## Project Structure
 
@@ -42,3 +42,7 @@ This command will execute all test files in the `tests` directory.
 -   `data/`: Contains test data, such as `testdata.json`.
 -   `playwright.config.ts`: Playwright configuration file.
 -   `package.json`: Project dependencies and scripts.
+
+## Note that one test case is currently failing because a job application submission is not succeeding. The Playwright report will indicate which specific job application failed in the reports.
+
+## After test run we can check index.html inside playwright-report to get the test reports.
