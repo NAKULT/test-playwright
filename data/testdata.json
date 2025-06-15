@@ -1,0 +1,13 @@
+{
+  "testUser": {
+    "name": "Test User",
+    "email": "test.user@example.example.com"
+  },
+  "messages": {
+    "success": "Application submitted",
+    "error": "There was an error submitting the application",
+    "nameError": "Name must be at least 2 characters long.",
+    "emailRequiredError": "Email is required.",
+    "resumeRequiredError": "Resume is required."
+  }
+}
