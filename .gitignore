@@ -1,0 +1,9 @@
+# Ignore test results and reports
+test-results/
+playwright-report/
+
+# Ignore dependency directory
+node_modules/
+
+# Ignore package-lock.json
+package-lock.json
